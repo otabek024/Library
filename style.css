@@ -1,0 +1,63 @@
+.main-container{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://upload.wikimedia.org/wikipedia/commons/d/d4/National_Library_of_Korea%2C_front.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav .navbar-nav li a, nav div a{
+  color: black !important;
+  font-weight: 500;
+}
+nav .navbar-nav li a:hover, nav div a:hover{
+  color: orangered!important;
+}
+
+.section-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+
+.section-2{
+  height: 80vh;
+  padding-top: 7rem;
+  margin-bottom: 2em;
+}
+
+.section-3, .section-4, .section-5, .section-6{
+  height: 40vh;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+footer{
+  height: 10vh;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+footer a{
+  display: flex;
+  text-decoration: none;
+  color: lightgray;
+  margin-right: 15px;
+}
+.fab:hover{
+  color: crimson;
+  transform: scale(1.2);
+}
+
+
+
+
+

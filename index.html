@@ -46,7 +46,7 @@
           <div>
             <h1 class="text-white m-title mb-4">National Library of <span class="text-warning">Sejong</span></h1>
             <p class="lead my-4 p-description"> <!--lead makes text bigger-->
-              National Library of Korea, also known as Sejong City with total of 920,000 books.
+             National Library of Sejong, also known as Sejong City with total of 920,000 books.
             </p>
             <a href="#add-book" class="btn btn-warning btn-lg mt-3">Start Booking</a>
           </div>
@@ -100,27 +100,72 @@
   </section>
   <section class="section-4" id="browse-library">
     <div class="container">
-      <div class="tab-pane" >
         <h2 class="text-center mb-4"><b>Browse the Library</b></h2>
-        <div class="d-flex">
-          <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+        <div class="d-flex justify-content-center">
+          <select class="form-select form-select-lg w-50" aria-label=".form-select-lg example">
             <option selected>Sort Books by:</option>
             <option value="1">Name</option>
             <option value="2">Code</option>
           </select>
           <button class="btn btn-warning">SORT</button>
         </div>
-      </div>
+        <div class="row mt-5">
+          <div class="col-md mb-4">
+            <div class="card" style="width: 18rem auto;">
+              <div class="card-header">Name of the book</div>
+              <div class="card-body">
+                <h5 class="card-title">Genre:</h5>
+                <h5 class="card-title">Code:</h5>
+                <h5 class="card-title">Author:</h5>
+                <a href="#" class="btn btn-primary mt-2">BORROW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-4">
+            <div class="card" style="width: 18rem auto;">
+              <div class="card-header">Name of the book</div>
+              <div class="card-body">
+                <h5 class="card-title">Genre:</h5>
+                <h5 class="card-title">Code:</h5>
+                <h5 class="card-title">Author:</h5>
+                <a href="#" class="btn btn-primary mt-2">BORROW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-4">
+            <div class="card" style="width: 18rem auto;">
+              <div class="card-header">Name of the book</div>
+              <div class="card-body">
+                <h5 class="card-title">Genre:</h5>
+                <h5 class="card-title">Code:</h5>
+                <h5 class="card-title">Author:</h5>
+                <a href="#" class="btn btn-primary mt-2">BORROW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card" style="width: 18rem auto;">
+              <div class="card-header">Name of the book</div>
+              <div class="card-body">
+                <h5 class="card-title">Genre:</h5>
+                <h5 class="card-title">Code:</h5>
+                <h5 class="card-title">Author:</h5>
+                <a href="#" class="btn btn-primary mt-2">BORROW</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
     </div>
   </section>
   <section class="section-5"  id="search-book">
     <div class="container">
       <div class="tab-pane">
         <h2 class="text-center mb-4"><b>Search Books</b></h2>
-        <div class="d-flex">
-          <input type="text" placeholder="Search..." class="form-control" id="usr">
+        <div class="d-flex justify-content-center">
+          <input type="text" placeholder="Search..." class="form-control w-50" id="usr">
           <select class="form-select form-select-lg w-25" aria-label=".form-select-lg example">
-            <option selected>By Name:</option>
+            <option selected>Name:</option>
             <option value="1">Code</option>
             <option value="2">Genre</option>
             <option value="3">Author</option>

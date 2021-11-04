@@ -19,6 +19,9 @@ nav .navbar-nav li a:hover, nav div a:hover{
   font-size: 3rem;
 }
 
+.p-description{
+  color: white;
+}
 
 
 .section-1{
@@ -62,7 +65,10 @@ footer a{
 
 @media screen and (max-width: 480px) {
   .m-title{
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+  .p-description{
+    display: none;
   }
 }
 
